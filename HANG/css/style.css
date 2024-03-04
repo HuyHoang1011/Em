@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(133, 116, 116);
+}
+body .chu {
+  margin-left: 40px;
+  margin-top: 30px;
+  display: none;
+}
+body .chu p {
+  font-size: 50px;
+}
+body .btn-container {
+  position: fixed;
+  left: 50%;
+  bottom: 20px; /* Điều chỉnh khoảng cách từ nút button đến bottom */
+  transform: translateX(-50%);
+}
+body .btn {
+  width: 50px; /* Điều chỉnh kích thước nút button nếu cần */
+  height: 50px;
+  background-color: rgba(255, 0, 8, 0.3058823529); /* Điều chỉnh màu sắc nút button nếu cần */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body .btnhear {
+  width: 150px; /* Điều chỉnh kích thước nút button nếu cần */
+  height: 70px;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 8, 0.3058823529); /* Điều chỉnh màu sắc nút button nếu cần */
+  display: flex;
+  cursor: pointer;
+  display: none;
+}
+body .btnhear a {
+  font-size: 18px;
+  color: pink;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
